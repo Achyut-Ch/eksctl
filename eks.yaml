@@ -8,7 +8,7 @@ metadata:
   region: us-east-1
 
 managedNodeGroups:
-- name: spot
+- name: roboshop 
   instanceTypes: ["t3.large","c3.large","c4.large","c5.large","c5d.large","c5n.large","c5a.large"]
   spot: false
   desiredCapacity: 2
